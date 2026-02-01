@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/Sinhal29/argocd-demo-main.git # Repo containing child apps(that you have forked and cloned earlier)
-    targetRevision: main
+    targetRevision: master
     path: argocd-demos-main/ui_approach/nginx      # path of Nginx app in `argocd-demos` repo
   destination:
     server:https://kubernetes.default.svc # Replace with your Cluster Url, To get run: `argocd cluster list`
